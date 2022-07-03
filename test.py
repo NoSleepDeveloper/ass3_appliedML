@@ -4,7 +4,7 @@ from model import Model
 import time
 
 def sanity_test():
-    with open('data/ass3.pickle', 'rb') as handle:
+    with open('../Ass3/data/ass3.pickle', 'rb') as handle:
         data = pickle.load(handle)
 
     X_train, y_train = data['train']
