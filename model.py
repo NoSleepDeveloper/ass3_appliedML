@@ -1,7 +1,7 @@
 from sklearn.preprocessing import RobustScaler
 from sklearn.ensemble import ExtraTreesRegressor
 
-BEST_PARAMS = {'n_estimators': 50, 'criterion': 'absolute_error', 'max_features': None, 'bootstrap': False,
+BEST_PARAMS = {'n_estimators': 95, 'criterion': 'squared_error', 'max_features': None, 'bootstrap': False,
                'random_state': 42}
 
 
